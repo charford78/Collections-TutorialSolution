@@ -8,11 +8,11 @@ namespace Collections_Tutorial
         static void Main(string[] args)
         {
             var rnd = new Random();
-            var number = rnd.Next(0, 31);
-
+            
             int[] scores = new int[10];
             for (int i = 0; i < 10; i++)
             {
+                var number = rnd.Next(0, 31);
                 scores[i] = number;
             }
 
